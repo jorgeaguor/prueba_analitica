@@ -1,0 +1,29 @@
+2025-02-05 07:25:07,316 - INFO - Lectura de dataframe obligaciones clientes exitosa: 112549 filas obtenidas
+2025-02-05 07:25:17,484 - INFO - Lectura de dataframe obligaciones clientes entrenamiento exitosa: 567583 filas obtenidas
+2025-02-05 07:27:04,822 - INFO - Lectura de dataframe informacion historica obligaciones exitosa: 4734091 filas obtenidas
+2025-02-05 07:27:11,439 - INFO - Lectura de dataframe informacion demografica exitosa: 241049 filas obtenidas
+2025-02-05 07:27:22,332 - INFO - Lectura de dataframe modelos desarrollados exitosa: 4804836 filas obtenidas
+2025-02-05 07:27:22,332 - INFO - Toda la informacion leida exitosamente
+2025-02-05 07:27:22,347 - INFO - Columnas seleccionadas tabla de obligaciones a calificar en 2024/01
+2025-02-05 07:27:22,475 - INFO - Columnas seleccionadas tabla de información variable objetivo train
+2025-02-05 07:27:22,905 - INFO - Columnas seleccionadas tabla historica de obligaciones
+2025-02-05 07:27:22,933 - INFO - Columnas seleccionadas tabla demografica clientes
+2025-02-05 07:27:22,934 - INFO - Columnas seleccionadas tabla probabilidades modelos
+2025-02-05 07:28:07,302 - INFO - Unión entre obligaciones clientes train y pagos obligaciones exitosa
+2025-02-05 07:28:10,276 - INFO - Unión con demografica cliente exitosa
+2025-02-05 07:28:54,522 - INFO - Unión con probabilidades exitosa
+2025-02-05 07:28:54,522 - INFO - Unión para data train exitosa
+2025-02-05 07:28:54,759 - INFO - Unión entre obligaciones clientes y obligaciones clientes train exitosa
+2025-02-05 07:29:17,847 - INFO - Unión con pagos obligaciones exitosa
+2025-02-05 07:29:17,939 - INFO - Unión con demografica cliente exitosa
+2025-02-05 07:29:18,092 - INFO - Unión con probabilidades exitosa
+2025-02-05 07:29:18,092 - INFO - Unión para data a predecir exitosa
+2025-02-05 07:29:28,072 - INFO - Consolidacion data train exitosa
+2025-02-05 07:29:31,379 - INFO - X_train, X_test, y_train, y_test generados exitosamente
+2025-02-05 07:32:55,127 - INFO - Construccion de pipeline exitoso
+2025-02-05 07:33:06,966 - INFO - F1 Score train: 0.7128481212103023
+2025-02-05 07:33:10,006 - INFO - F1 Score test: 0.712337649601198
+2025-02-05 07:33:10,006 - INFO - Evaluacion pipeline finalizada
+2025-02-05 07:33:10,316 - INFO - Evaluacion pipeline finalizada
+2025-02-05 07:33:10,380 - INFO - Evaluacion pipeline exitosa
+2025-02-05 07:33:10,380 - INFO - Generación de archivo respuesta_corrida_2025_2_5.txt exitosa
