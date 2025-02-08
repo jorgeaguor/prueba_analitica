@@ -431,7 +431,8 @@ class modelo():
             X = data_predict.copy()
 
             # Partir los datos, sólo se toma un 30%
-            X_pred = X.sample(frac=0.3, replace=True, random_state=42)
+            #X_pred = X.sample(frac=0.3, replace=True, random_state=42)
+            X_pred = X.copy()
 
             X_pred_1 = X_pred.drop(columns=['ID'])
 
